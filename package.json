@@ -1,0 +1,31 @@
+{
+  "name": "week-13",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/klaganse/webpack_test#readme",
+  "bugs": {
+    "url": "https://github.com/klaganse/webpack_test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klaganse/webpack_test.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+
+  "scripts": {
+    "dev": "webpack serve --open --mode=development",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production"
+  },
+
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.7",
+    "sass": "^1.99.0",
+    "typescript": "^6.0.3",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
